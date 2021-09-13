@@ -1,0 +1,22 @@
+{
+  "name": "poc_k6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.17.3",
+    "k6": "0.0.0",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bundle": "webpack",
+    "start": "npm run bundle && k6 run dist/start.js " 
+  },
+  "author": "",
+  "license": "ISC"
+}
